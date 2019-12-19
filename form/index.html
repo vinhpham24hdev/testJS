@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Sign up</title>
+</head>
+
+<body>
+    <div class="container">
+        <form onsubmit="return testForm()" class="form-sign" name="register">
+            <h1>SIGN UP</h1>
+            <span>We're happy you're here!</span>
+            <div class="form-group">
+                <input class="info inputForm clear" type="text" id="email" name="email" placeholder="E-mail address">
+                <img class="svg" src="emai.svg">
+            </div>
+            <p class="note" id="note-name">*Username is empty.</p>
+            <div class="form-group">
+                <input class="info inputForm clear" type="password" id="password" name="password" placeholder="Password">
+                <img class="svg" src="pass.svg">
+            </div>
+            <p class="note" id="note-password">*Password is empty.</p>
+            <div class="form-group">
+                <input class="info inputForm clear" type="password" id="confirm-password" name="confirmpassword" placeholder="Confirm password">
+            </div>
+            <p class="note" id="note-confirm-empty">*Confirm your password.</p>
+            <p class="note" id="note-confirm-incorrect">*Password is incorrect.</p>
+            <div id="list" name="list">
+
+            </div>
+            <p class="note" id="note-skill">* skill/teacher is empty.</p>
+            <input type="button" value="New" id="add" onclick="addNew()">
+            <input type="submit" value="Sign up" id="submit">
+        </form>
+    </div>
+
+    <script type="text/javascript" src="js.js"></script>
+</body>
+
+</html>
