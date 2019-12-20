@@ -29,7 +29,6 @@ let noteConfInco = document.getElementById("note-confirm-incorrect");
 let noteSkill = document.getElementById("note-skill");
 //
 let arList = document.querySelector("#list");
-let delId = document.getElementById("deleteID");
 let counter = 1;
 
 //validate
@@ -112,6 +111,7 @@ function testForm() {
 
 //check number of option-group for delete x;
 const checkCounter = () => {
+  let delId = document.getElementById("deleteID");
   if (counter > 1) {
     delId.style.display = "block";
   } else {
