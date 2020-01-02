@@ -1,7 +1,7 @@
 // source slide
 const arSlider = [{
         url: "1.jpg",
-        title: "Âu Dương Tu",
+        title: "Âu Dương Tu QLG",
         subTitle: "Túy ông ý chẳng say vì rượu, say vì đâu núi thảo với non cao."
     },
     {
